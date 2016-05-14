@@ -3,7 +3,10 @@
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
-#
+#S
+production:
+  url: <%= ENV['DATABASE_URL'] %>
+
 development:
   adapter: sqlite3
   pool: 5

@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'tail'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -37,6 +39,9 @@ group :development, :test do
   gem 'awesome_print'
   gem 'pry'
   gem 'byebug'
+  gem 'sqlite3'
+  gem 'capistrano'
+  gem 'capistrano3-ubuntu-server-prepare'
 end
 
 group :development do

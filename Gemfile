@@ -39,7 +39,6 @@ group :development, :test do
   gem 'awesome_print'
   gem 'pry'
   gem 'byebug'
-  gem 'sqlite3'
   gem 'capistrano'
   gem 'capistrano3-ubuntu-server-prepare'
 end

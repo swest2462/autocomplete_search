@@ -5,7 +5,7 @@ class SearchController < ApplicationController
   def index
     query = params[:term]
     if query.present?
-      descriptions = Description.where("lower(value) like ?", "%#{query.downcase}%").select(:value).uniq.limit(50)
+      descriptions = Description.select(:value).distinct.where("lower(value) like ?", "%#{query.downcase}%").uniq.limit(50)
 
       response = descriptions.map(&:value)
       render json: response, callback: params['callback']

@@ -39,8 +39,11 @@ group :development, :test do
   gem 'awesome_print'
   gem 'pry'
   gem 'byebug'
-  gem 'capistrano'
-  gem 'capistrano3-ubuntu-server-prepare'
+  gem 'capistrano',         require: false
+  gem 'capistrano-rvm',     require: false
+  gem 'capistrano-rails',   require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano3-puma',   require: false
 end
 
 group :development do

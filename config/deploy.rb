@@ -1,5 +1,5 @@
 # Change these
-server '95.213.235.96', port: 80,roles: [:web, :app, :db], primary: true
+server '95.213.235.96', port: 80, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@bitbucket.org:swest2462/autocomp.git'
 set :application,     'autocompl'

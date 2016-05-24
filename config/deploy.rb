@@ -2,6 +2,7 @@
 lock '3.5.0'
 
 set :application, 'autcompl'
+set :user, 'deploy'
 set :repo_url, 'git@bitbucket.org:swest2462/autocomp.git'
 
 # Default branch is :master

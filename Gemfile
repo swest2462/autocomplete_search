@@ -36,8 +36,13 @@ gem 'unicorn'
 
 
 group :development do
-  gem 'capistrano' 
-  gem 'capistrano3-ubuntu-server-prepare' 
+  gem 'capistrano'
+  gem 'capistrano-rails'
+  gem 'capistrano-bundler'
+  gem 'capistrano3-unicorn'
+  gem 'capistrano-rvm'
+  gem 'capistrano3-ubuntu-server-prepare'
+  gem 'capistrano3-delayed-job'
   gem 'spring'
 end
 

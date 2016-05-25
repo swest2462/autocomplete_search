@@ -14,5 +14,5 @@ development:
   encoding: unicode
   pool: 5
   host: localhost
-  username: swest1
-  password: 123456
+  username: dbuser
+  password: 12108484

@@ -5,7 +5,7 @@ production:
   encoding: unicode
   pool: 5
   host: localhost
-  username: deployer
+  username: deploy
   password: 12108484
 
 development:

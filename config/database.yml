@@ -4,8 +4,7 @@ production:
   database: autocompl_prod
   encoding: unicode
   pool: 5
-  host: localhost
-  username: deploy
+  username: deployer
   password: 12108484
 
 development:

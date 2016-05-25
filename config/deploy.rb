@@ -1,6 +1,7 @@
 # config valid only for current version of Capistrano
 lock '3.5.0'
 
+before :deploy, 'git:push'
 set :application, 'autocompl'
 set :repo_url,        'git@bitbucket.org:swest2462/autocomp.git'
 
